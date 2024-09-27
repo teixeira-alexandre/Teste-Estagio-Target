@@ -6,14 +6,14 @@ class FibonacciCheck
     {
         int a = 0, b = 1, fib = 0;
 
-        while (fib < number)
+        while (fibo < number)
         {
-            fib = a + b;
+            fibo = a + b;
             a = b;
-            b = fib;
+            b = fibo;
         }
 
-        return fib == number || number == 0;
+        return fibo == number || number == 0;
     }
 
     static void Main(string[] args)
