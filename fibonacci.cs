@@ -4,7 +4,7 @@ class FibonacciCheck
 {
     static bool IsFibonacci(int number)
     {
-        int a = 0, b = 1, fib = 0;
+        int a = 0, b = 1, fibo = 0;
 
         while (fibo < number)
         {
